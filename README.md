@@ -1,37 +1,24 @@
-# laminas-mvc-skeleton
+# Тестовое приложение на Luminas
 
-## Introduction
-
-This is a skeleton application using the Laminas MVC layer and module
-systems. This application is meant to be used as a starting place for those
-looking to get their feet wet with Laminas MVC.
-
-## Installation using Composer
-
-The easiest way to create a new Laminas MVC project is to use
-[Composer](https://getcomposer.org/). If you don't have it already installed,
-then please install as per the [documentation](https://getcomposer.org/doc/00-intro.md).
-
-To create your new Laminas MVC project:
-
+## Подготовка
+запустите
 ```bash
-$ composer create-project -sdev laminas/laminas-mvc-skeleton path/to/install
+$ composer install 
 ```
 
-Once installed, you can test it out immediately using PHP's built-in web server:
+для запуска нужно создать БД MYSQL
+
+после в конфигах /config/autoload/global.php прописать данные подключения, 
+
+так же 
+создайте файл /config/autoload/local.php с содержимым как у /config/autoload/local.php.dist
+и в созданном файле введите имя пользователя и пароль для доступа к БД
+настройте свой веб сервер в корень /public к точке входа /public/index.php 
+пропишите в файле /data/load_db.php данные доступа к БД, и запустите в терменала
 
 ```bash
-$ cd path/to/install
-$ php -S 0.0.0.0:8080 -t public
-# OR use the composer alias:
-$ composer run --timeout 0 serve
+$ php data/load_db.php
 ```
-
-This will start the cli-server on port 8080, and bind it to all network
-interfaces. You can then visit the site at http://localhost:8080/
-- which will bring up Laminas MVC Skeleton welcome page.
-
-**Note:** The built-in CLI server is *for development only*.
 
 ## Development mode
 

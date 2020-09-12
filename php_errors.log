@@ -1,0 +1,400 @@
+[11-Sep-2020 20:43:07 UTC] PHP Notice:  Undefined index: content in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php on line 38
+[11-Sep-2020 20:43:07 UTC] PHP Stack trace:
+[11-Sep-2020 20:43:07 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 20:43:07 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 20:43:07 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 20:43:07 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 20:43:07 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 20:43:07 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 20:43:07 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 20:43:07 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 20:43:07 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 20:43:07 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 20:43:07 UTC] PHP  11. Application\Model\RbkParser->parse() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 20:43:44 UTC] PHP Notice:  Undefined index: http://rbk.ru in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php on line 38
+[11-Sep-2020 20:43:44 UTC] PHP Stack trace:
+[11-Sep-2020 20:43:44 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 20:43:44 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 20:43:44 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 20:43:44 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 20:43:44 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 20:43:44 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 20:43:44 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 20:43:44 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 20:43:44 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 20:43:44 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 20:43:44 UTC] PHP  11. Application\Model\RbkParser->parse() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 20:43:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php on line 38
+[11-Sep-2020 20:43:44 UTC] PHP Stack trace:
+[11-Sep-2020 20:43:44 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 20:43:44 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 20:43:44 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 20:43:44 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 20:43:44 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 20:43:44 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 20:43:44 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 20:43:44 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 20:43:44 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 20:43:44 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 20:43:44 UTC] PHP  11. Application\Model\RbkParser->parse() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 20:44:55 UTC] PHP Notice:  Array to string conversion in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php on line 38
+[11-Sep-2020 20:44:55 UTC] PHP Stack trace:
+[11-Sep-2020 20:44:55 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 20:44:55 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 20:44:55 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 20:44:55 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 20:44:55 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 20:44:55 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 20:44:55 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 20:44:55 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 20:44:55 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 20:44:55 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 20:44:55 UTC] PHP  11. Application\Model\RbkParser->parse() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 21:15:44 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php on line 256
+[11-Sep-2020 21:15:44 UTC] PHP Stack trace:
+[11-Sep-2020 21:15:44 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 21:15:44 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 21:15:44 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 21:15:44 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 21:15:44 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 21:15:44 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 21:15:44 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 21:15:44 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 21:15:44 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 21:15:44 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 21:15:44 UTC] PHP  11. Application\Model\RbkParser->parseNewsFeed() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 21:15:44 UTC] PHP  12. Laminas\Dom\Query->execute() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php:100
+[11-Sep-2020 21:15:44 UTC] PHP  13. Laminas\Dom\Query->queryXpath() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:215
+[11-Sep-2020 21:15:44 UTC] PHP  14. DOMDocument->loadHTML() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:256
+[11-Sep-2020 21:16:08 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php on line 256
+[11-Sep-2020 21:16:08 UTC] PHP Stack trace:
+[11-Sep-2020 21:16:08 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 21:16:08 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 21:16:08 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 21:16:08 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 21:16:08 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 21:16:08 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 21:16:08 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 21:16:08 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 21:16:08 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 21:16:08 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 21:16:08 UTC] PHP  11. Application\Model\RbkParser->parseNewsFeed() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 21:16:08 UTC] PHP  12. Laminas\Dom\Query->execute() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php:101
+[11-Sep-2020 21:16:08 UTC] PHP  13. Laminas\Dom\Query->queryXpath() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:215
+[11-Sep-2020 21:16:08 UTC] PHP  14. DOMDocument->loadHTML() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:256
+[11-Sep-2020 22:02:19 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php on line 256
+[11-Sep-2020 22:02:19 UTC] PHP Stack trace:
+[11-Sep-2020 22:02:19 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 22:02:19 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 22:02:19 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 22:02:19 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:02:19 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:02:19 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 22:02:19 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 22:02:19 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:02:19 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:02:19 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 22:02:19 UTC] PHP  11. Application\Model\RbkParser->parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 22:02:19 UTC] PHP  12. Laminas\Dom\Query->execute() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php:122
+[11-Sep-2020 22:02:19 UTC] PHP  13. Laminas\Dom\Query->queryXpath() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:215
+[11-Sep-2020 22:02:19 UTC] PHP  14. DOMDocument->loadHTML() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:256
+[11-Sep-2020 22:14:27 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php on line 256
+[11-Sep-2020 22:14:27 UTC] PHP Stack trace:
+[11-Sep-2020 22:14:27 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 22:14:27 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 22:14:27 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 22:14:27 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:14:27 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:14:27 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 22:14:27 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 22:14:27 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:14:27 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:14:27 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 22:14:27 UTC] PHP  11. Application\Model\RbkParser->parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 22:14:27 UTC] PHP  12. Laminas\Dom\Query->execute() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php:122
+[11-Sep-2020 22:14:27 UTC] PHP  13. Laminas\Dom\Query->queryXpath() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:215
+[11-Sep-2020 22:14:27 UTC] PHP  14. DOMDocument->loadHTML() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:256
+[11-Sep-2020 22:15:09 UTC] PHP Notice:  Trying to get property 'textContent' of non-object in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php on line 122
+[11-Sep-2020 22:15:09 UTC] PHP Stack trace:
+[11-Sep-2020 22:15:09 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 22:15:09 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 22:15:09 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 22:15:09 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:15:09 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:15:09 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 22:15:09 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 22:15:09 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:15:09 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:15:09 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 22:15:09 UTC] PHP  11. Application\Model\RbkParser->parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 22:15:35 UTC] PHP Notice:  Trying to get property 'textContent' of non-object in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php on line 122
+[11-Sep-2020 22:15:35 UTC] PHP Stack trace:
+[11-Sep-2020 22:15:35 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 22:15:35 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 22:15:35 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 22:15:35 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:15:35 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:15:35 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 22:15:35 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 22:15:35 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:15:35 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:15:35 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 22:15:35 UTC] PHP  11. Application\Model\RbkParser->parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 22:36:07 UTC] PHP Warning:  DOMDocument::saveHTML() expects parameter 1 to be DOMNode, string given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php on line 135
+[11-Sep-2020 22:36:07 UTC] PHP Stack trace:
+[11-Sep-2020 22:36:07 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 22:36:07 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 22:36:07 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 22:36:07 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:36:07 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:36:07 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 22:36:07 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 22:36:07 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:36:07 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:36:07 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 22:36:07 UTC] PHP  11. Application\Model\RbkParser->parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 22:36:07 UTC] PHP  12. DOMDocument->saveHTML() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php:135
+[11-Sep-2020 22:36:52 UTC] PHP Warning:  DOMDocument::saveHTML() expects parameter 1 to be DOMNode, object given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php on line 135
+[11-Sep-2020 22:36:52 UTC] PHP Stack trace:
+[11-Sep-2020 22:36:52 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 22:36:52 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 22:36:52 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 22:36:52 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:36:52 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:36:52 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 22:36:52 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 22:36:52 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 22:36:52 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 22:36:52 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 22:36:52 UTC] PHP  11. Application\Model\RbkParser->parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 22:36:52 UTC] PHP  12. DOMDocument->saveHTML() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php:135
+[11-Sep-2020 23:00:51 UTC] PHP Warning:  DOMDocument::loadHTML(): Empty string supplied as input in /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php on line 256
+[11-Sep-2020 23:00:51 UTC] PHP Stack trace:
+[11-Sep-2020 23:00:51 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[11-Sep-2020 23:00:51 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[11-Sep-2020 23:00:51 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[11-Sep-2020 23:00:51 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 23:00:51 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 23:00:51 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[11-Sep-2020 23:00:51 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[11-Sep-2020 23:00:51 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[11-Sep-2020 23:00:51 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[11-Sep-2020 23:00:51 UTC] PHP  10. Application\Controller\NewsController->parseAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[11-Sep-2020 23:00:51 UTC] PHP  11. Application\Model\RbkParser->parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:42
+[11-Sep-2020 23:00:51 UTC] PHP  12. Laminas\Dom\Query->execute() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/RbkParser.php:122
+[11-Sep-2020 23:00:51 UTC] PHP  13. Laminas\Dom\Query->queryXpath() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:215
+[11-Sep-2020 23:00:51 UTC] PHP  14. DOMDocument->loadHTML() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-dom/src/Query.php:256
+[12-Sep-2020 01:36:50 UTC] PHP Notice:  Undefined property: Application\Model\News::$id in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/Base/Table.php on line 44
+[12-Sep-2020 01:36:50 UTC] PHP Stack trace:
+[12-Sep-2020 01:36:50 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 01:36:50 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 01:36:50 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[12-Sep-2020 01:36:50 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 01:36:50 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 01:36:50 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[12-Sep-2020 01:36:50 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[12-Sep-2020 01:36:50 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 01:36:50 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 01:36:50 UTC] PHP  10. Application\Controller\NewsController->syncAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[12-Sep-2020 01:36:50 UTC] PHP  11. Application\Model\NewsTable->syncNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:41
+[12-Sep-2020 01:36:50 UTC] PHP  12. Application\Tool\MultiCurlRequest::run() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:34
+[12-Sep-2020 01:36:50 UTC] PHP  13. Application\Model\NewsTable->Application\Model\{closure:/Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:18-34}() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Tool/MultiCurlRequest.php:54
+[12-Sep-2020 01:36:50 UTC] PHP  14. Application\Model\NewsTable->saveRow() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:31
+[12-Sep-2020 01:36:50 UTC] PHP Notice:  Undefined property: Application\Model\News::$id in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/Base/Table.php on line 50
+[12-Sep-2020 01:36:50 UTC] PHP Stack trace:
+[12-Sep-2020 01:36:50 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 01:36:50 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 01:36:50 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[12-Sep-2020 01:36:50 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 01:36:50 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 01:36:50 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[12-Sep-2020 01:36:50 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[12-Sep-2020 01:36:50 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 01:36:50 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 01:36:50 UTC] PHP  10. Application\Controller\NewsController->syncAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[12-Sep-2020 01:36:50 UTC] PHP  11. Application\Model\NewsTable->syncNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:41
+[12-Sep-2020 01:36:50 UTC] PHP  12. Application\Tool\MultiCurlRequest::run() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:34
+[12-Sep-2020 01:36:50 UTC] PHP  13. Application\Model\NewsTable->Application\Model\{closure:/Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:18-34}() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Tool/MultiCurlRequest.php:54
+[12-Sep-2020 01:36:50 UTC] PHP  14. Application\Model\NewsTable->saveRow() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:31
+[12-Sep-2020 03:27:21 UTC] PHP Warning:  mb_strimwidth() expects at least 3 parameters, 2 given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml on line 14
+[12-Sep-2020 03:27:21 UTC] PHP Stack trace:
+[12-Sep-2020 03:27:21 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 03:27:21 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 03:27:21 UTC] PHP   3. Laminas\Mvc\Application->completeRequest() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:347
+[12-Sep-2020 03:27:21 UTC] PHP   4. Laminas\EventManager\EventManager->triggerEvent() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:366
+[12-Sep-2020 03:27:21 UTC] PHP   5. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:180
+[12-Sep-2020 03:27:21 UTC] PHP   6. Laminas\Mvc\View\Http\DefaultRenderingStrategy->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 03:27:21 UTC] PHP   7. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/View/Http/DefaultRenderingStrategy.php:104
+[12-Sep-2020 03:27:21 UTC] PHP   8. Laminas\View\View->renderChildren() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:199
+[12-Sep-2020 03:27:21 UTC] PHP   9. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:235
+[12-Sep-2020 03:27:21 UTC] PHP  10. Laminas\View\Renderer\PhpRenderer->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:206
+[12-Sep-2020 03:27:21 UTC] PHP  11. include() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/Renderer/PhpRenderer.php:505
+[12-Sep-2020 03:27:21 UTC] PHP  12. mb_strimwidth() /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml:14
+[12-Sep-2020 03:27:21 UTC] PHP Warning:  mb_strimwidth() expects at least 3 parameters, 2 given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml on line 14
+[12-Sep-2020 03:27:21 UTC] PHP Stack trace:
+[12-Sep-2020 03:27:21 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 03:27:21 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 03:27:21 UTC] PHP   3. Laminas\Mvc\Application->completeRequest() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:347
+[12-Sep-2020 03:27:21 UTC] PHP   4. Laminas\EventManager\EventManager->triggerEvent() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:366
+[12-Sep-2020 03:27:21 UTC] PHP   5. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:180
+[12-Sep-2020 03:27:21 UTC] PHP   6. Laminas\Mvc\View\Http\DefaultRenderingStrategy->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 03:27:21 UTC] PHP   7. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/View/Http/DefaultRenderingStrategy.php:104
+[12-Sep-2020 03:27:21 UTC] PHP   8. Laminas\View\View->renderChildren() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:199
+[12-Sep-2020 03:27:21 UTC] PHP   9. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:235
+[12-Sep-2020 03:27:21 UTC] PHP  10. Laminas\View\Renderer\PhpRenderer->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:206
+[12-Sep-2020 03:27:21 UTC] PHP  11. include() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/Renderer/PhpRenderer.php:505
+[12-Sep-2020 03:27:21 UTC] PHP  12. mb_strimwidth() /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml:14
+[12-Sep-2020 03:27:21 UTC] PHP Warning:  mb_strimwidth() expects at least 3 parameters, 2 given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml on line 14
+[12-Sep-2020 03:27:21 UTC] PHP Stack trace:
+[12-Sep-2020 03:27:21 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 03:27:21 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 03:27:21 UTC] PHP   3. Laminas\Mvc\Application->completeRequest() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:347
+[12-Sep-2020 03:27:21 UTC] PHP   4. Laminas\EventManager\EventManager->triggerEvent() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:366
+[12-Sep-2020 03:27:21 UTC] PHP   5. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:180
+[12-Sep-2020 03:27:21 UTC] PHP   6. Laminas\Mvc\View\Http\DefaultRenderingStrategy->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 03:27:21 UTC] PHP   7. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/View/Http/DefaultRenderingStrategy.php:104
+[12-Sep-2020 03:27:21 UTC] PHP   8. Laminas\View\View->renderChildren() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:199
+[12-Sep-2020 03:27:21 UTC] PHP   9. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:235
+[12-Sep-2020 03:27:21 UTC] PHP  10. Laminas\View\Renderer\PhpRenderer->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:206
+[12-Sep-2020 03:27:21 UTC] PHP  11. include() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/Renderer/PhpRenderer.php:505
+[12-Sep-2020 03:27:21 UTC] PHP  12. mb_strimwidth() /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml:14
+[12-Sep-2020 03:27:21 UTC] PHP Warning:  mb_strimwidth() expects at least 3 parameters, 2 given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml on line 14
+[12-Sep-2020 03:27:21 UTC] PHP Stack trace:
+[12-Sep-2020 03:27:21 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 03:27:21 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 03:27:21 UTC] PHP   3. Laminas\Mvc\Application->completeRequest() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:347
+[12-Sep-2020 03:27:21 UTC] PHP   4. Laminas\EventManager\EventManager->triggerEvent() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:366
+[12-Sep-2020 03:27:21 UTC] PHP   5. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:180
+[12-Sep-2020 03:27:21 UTC] PHP   6. Laminas\Mvc\View\Http\DefaultRenderingStrategy->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 03:27:21 UTC] PHP   7. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/View/Http/DefaultRenderingStrategy.php:104
+[12-Sep-2020 03:27:21 UTC] PHP   8. Laminas\View\View->renderChildren() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:199
+[12-Sep-2020 03:27:21 UTC] PHP   9. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:235
+[12-Sep-2020 03:27:21 UTC] PHP  10. Laminas\View\Renderer\PhpRenderer->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:206
+[12-Sep-2020 03:27:21 UTC] PHP  11. include() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/Renderer/PhpRenderer.php:505
+[12-Sep-2020 03:27:21 UTC] PHP  12. mb_strimwidth() /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml:14
+[12-Sep-2020 03:27:21 UTC] PHP Warning:  mb_strimwidth() expects at least 3 parameters, 2 given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml on line 14
+[12-Sep-2020 03:27:21 UTC] PHP Stack trace:
+[12-Sep-2020 03:27:21 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 03:27:21 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 03:27:21 UTC] PHP   3. Laminas\Mvc\Application->completeRequest() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:347
+[12-Sep-2020 03:27:21 UTC] PHP   4. Laminas\EventManager\EventManager->triggerEvent() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:366
+[12-Sep-2020 03:27:21 UTC] PHP   5. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:180
+[12-Sep-2020 03:27:21 UTC] PHP   6. Laminas\Mvc\View\Http\DefaultRenderingStrategy->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 03:27:21 UTC] PHP   7. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/View/Http/DefaultRenderingStrategy.php:104
+[12-Sep-2020 03:27:21 UTC] PHP   8. Laminas\View\View->renderChildren() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:199
+[12-Sep-2020 03:27:21 UTC] PHP   9. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:235
+[12-Sep-2020 03:27:21 UTC] PHP  10. Laminas\View\Renderer\PhpRenderer->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:206
+[12-Sep-2020 03:27:21 UTC] PHP  11. include() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/Renderer/PhpRenderer.php:505
+[12-Sep-2020 03:27:21 UTC] PHP  12. mb_strimwidth() /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml:14
+[12-Sep-2020 03:27:21 UTC] PHP Warning:  mb_strimwidth() expects at least 3 parameters, 2 given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml on line 14
+[12-Sep-2020 03:27:21 UTC] PHP Stack trace:
+[12-Sep-2020 03:27:21 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 03:27:21 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 03:27:21 UTC] PHP   3. Laminas\Mvc\Application->completeRequest() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:347
+[12-Sep-2020 03:27:21 UTC] PHP   4. Laminas\EventManager\EventManager->triggerEvent() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:366
+[12-Sep-2020 03:27:21 UTC] PHP   5. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:180
+[12-Sep-2020 03:27:21 UTC] PHP   6. Laminas\Mvc\View\Http\DefaultRenderingStrategy->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 03:27:21 UTC] PHP   7. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/View/Http/DefaultRenderingStrategy.php:104
+[12-Sep-2020 03:27:21 UTC] PHP   8. Laminas\View\View->renderChildren() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:199
+[12-Sep-2020 03:27:21 UTC] PHP   9. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:235
+[12-Sep-2020 03:27:21 UTC] PHP  10. Laminas\View\Renderer\PhpRenderer->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:206
+[12-Sep-2020 03:27:21 UTC] PHP  11. include() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/Renderer/PhpRenderer.php:505
+[12-Sep-2020 03:27:21 UTC] PHP  12. mb_strimwidth() /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml:14
+[12-Sep-2020 03:27:21 UTC] PHP Warning:  mb_strimwidth() expects at least 3 parameters, 2 given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml on line 14
+[12-Sep-2020 03:27:21 UTC] PHP Stack trace:
+[12-Sep-2020 03:27:21 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 03:27:21 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 03:27:21 UTC] PHP   3. Laminas\Mvc\Application->completeRequest() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:347
+[12-Sep-2020 03:27:21 UTC] PHP   4. Laminas\EventManager\EventManager->triggerEvent() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:366
+[12-Sep-2020 03:27:21 UTC] PHP   5. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:180
+[12-Sep-2020 03:27:21 UTC] PHP   6. Laminas\Mvc\View\Http\DefaultRenderingStrategy->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 03:27:21 UTC] PHP   7. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/View/Http/DefaultRenderingStrategy.php:104
+[12-Sep-2020 03:27:21 UTC] PHP   8. Laminas\View\View->renderChildren() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:199
+[12-Sep-2020 03:27:21 UTC] PHP   9. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:235
+[12-Sep-2020 03:27:21 UTC] PHP  10. Laminas\View\Renderer\PhpRenderer->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:206
+[12-Sep-2020 03:27:21 UTC] PHP  11. include() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/Renderer/PhpRenderer.php:505
+[12-Sep-2020 03:27:21 UTC] PHP  12. mb_strimwidth() /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml:14
+[12-Sep-2020 03:27:21 UTC] PHP Warning:  mb_strimwidth() expects at least 3 parameters, 2 given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml on line 14
+[12-Sep-2020 03:27:21 UTC] PHP Stack trace:
+[12-Sep-2020 03:27:21 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 03:27:21 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 03:27:21 UTC] PHP   3. Laminas\Mvc\Application->completeRequest() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:347
+[12-Sep-2020 03:27:21 UTC] PHP   4. Laminas\EventManager\EventManager->triggerEvent() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:366
+[12-Sep-2020 03:27:21 UTC] PHP   5. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:180
+[12-Sep-2020 03:27:21 UTC] PHP   6. Laminas\Mvc\View\Http\DefaultRenderingStrategy->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 03:27:21 UTC] PHP   7. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/View/Http/DefaultRenderingStrategy.php:104
+[12-Sep-2020 03:27:21 UTC] PHP   8. Laminas\View\View->renderChildren() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:199
+[12-Sep-2020 03:27:21 UTC] PHP   9. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:235
+[12-Sep-2020 03:27:21 UTC] PHP  10. Laminas\View\Renderer\PhpRenderer->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:206
+[12-Sep-2020 03:27:21 UTC] PHP  11. include() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/Renderer/PhpRenderer.php:505
+[12-Sep-2020 03:27:21 UTC] PHP  12. mb_strimwidth() /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml:14
+[12-Sep-2020 03:27:21 UTC] PHP Warning:  mb_strimwidth() expects at least 3 parameters, 2 given in /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml on line 14
+[12-Sep-2020 03:27:21 UTC] PHP Stack trace:
+[12-Sep-2020 03:27:21 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 03:27:21 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 03:27:21 UTC] PHP   3. Laminas\Mvc\Application->completeRequest() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:347
+[12-Sep-2020 03:27:21 UTC] PHP   4. Laminas\EventManager\EventManager->triggerEvent() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:366
+[12-Sep-2020 03:27:21 UTC] PHP   5. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:180
+[12-Sep-2020 03:27:21 UTC] PHP   6. Laminas\Mvc\View\Http\DefaultRenderingStrategy->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 03:27:21 UTC] PHP   7. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/View/Http/DefaultRenderingStrategy.php:104
+[12-Sep-2020 03:27:21 UTC] PHP   8. Laminas\View\View->renderChildren() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:199
+[12-Sep-2020 03:27:21 UTC] PHP   9. Laminas\View\View->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:235
+[12-Sep-2020 03:27:21 UTC] PHP  10. Laminas\View\Renderer\PhpRenderer->render() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/View.php:206
+[12-Sep-2020 03:27:21 UTC] PHP  11. include() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-view/src/Renderer/PhpRenderer.php:505
+[12-Sep-2020 03:27:21 UTC] PHP  12. mb_strimwidth() /Users/fedasenia/Work/Projects/rbk-news/module/Application/view/application/news/index.phtml:14
+[12-Sep-2020 06:17:22 UTC] PHP Notice:  Trying to get property 'textContent' of non-object in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Tool/RbkParser.php on line 27
+[12-Sep-2020 06:17:22 UTC] PHP Stack trace:
+[12-Sep-2020 06:17:22 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 06:17:22 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 06:17:22 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[12-Sep-2020 06:17:22 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 06:17:22 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 06:17:22 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[12-Sep-2020 06:17:22 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[12-Sep-2020 06:17:22 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 06:17:22 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 06:17:22 UTC] PHP  10. Application\Controller\NewsController->syncAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[12-Sep-2020 06:17:22 UTC] PHP  11. Application\Model\NewsTable->syncNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:49
+[12-Sep-2020 06:17:22 UTC] PHP  12. Application\Tool\RbkParser::parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:22
+[12-Sep-2020 06:17:47 UTC] PHP Notice:  Trying to get property 'textContent' of non-object in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Tool/RbkParser.php on line 27
+[12-Sep-2020 06:17:47 UTC] PHP Stack trace:
+[12-Sep-2020 06:17:47 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 06:17:47 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 06:17:47 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[12-Sep-2020 06:17:47 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 06:17:47 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 06:17:47 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[12-Sep-2020 06:17:47 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[12-Sep-2020 06:17:47 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 06:17:47 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 06:17:47 UTC] PHP  10. Application\Controller\NewsController->syncAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[12-Sep-2020 06:17:47 UTC] PHP  11. Application\Model\NewsTable->syncNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:49
+[12-Sep-2020 06:17:47 UTC] PHP  12. Application\Tool\RbkParser::parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:22
+[12-Sep-2020 06:18:03 UTC] PHP Notice:  Trying to get property 'textContent' of non-object in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Tool/RbkParser.php on line 27
+[12-Sep-2020 06:18:03 UTC] PHP Stack trace:
+[12-Sep-2020 06:18:03 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 06:18:03 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 06:18:03 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[12-Sep-2020 06:18:03 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 06:18:03 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 06:18:03 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[12-Sep-2020 06:18:03 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[12-Sep-2020 06:18:03 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 06:18:03 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 06:18:03 UTC] PHP  10. Application\Controller\NewsController->syncAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[12-Sep-2020 06:18:03 UTC] PHP  11. Application\Model\NewsTable->syncNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:49
+[12-Sep-2020 06:18:03 UTC] PHP  12. Application\Tool\RbkParser::parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:22
+[12-Sep-2020 06:18:03 UTC] PHP Notice:  Trying to get property 'textContent' of non-object in /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Tool/RbkParser.php on line 27
+[12-Sep-2020 06:18:03 UTC] PHP Stack trace:
+[12-Sep-2020 06:18:03 UTC] PHP   1. {main}() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:0
+[12-Sep-2020 06:18:03 UTC] PHP   2. Laminas\Mvc\Application->run() /Users/fedasenia/Work/Projects/rbk-news/public/index.php:42
+[12-Sep-2020 06:18:03 UTC] PHP   3. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Application.php:331
+[12-Sep-2020 06:18:03 UTC] PHP   4. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 06:18:03 UTC] PHP   5. Laminas\Mvc\DispatchListener->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 06:18:03 UTC] PHP   6. Application\Controller\NewsController->dispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/DispatchListener.php:139
+[12-Sep-2020 06:18:03 UTC] PHP   7. Laminas\EventManager\EventManager->triggerEventUntil() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractController.php:103
+[12-Sep-2020 06:18:03 UTC] PHP   8. Laminas\EventManager\EventManager->triggerListeners() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:188
+[12-Sep-2020 06:18:03 UTC] PHP   9. Application\Controller\NewsController->onDispatch() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-eventmanager/src/EventManager.php:331
+[12-Sep-2020 06:18:03 UTC] PHP  10. Application\Controller\NewsController->syncAction() /Users/fedasenia/Work/Projects/rbk-news/vendor/laminas/laminas-mvc/src/Controller/AbstractActionController.php:77
+[12-Sep-2020 06:18:03 UTC] PHP  11. Application\Model\NewsTable->syncNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Controller/NewsController.php:49
+[12-Sep-2020 06:18:03 UTC] PHP  12. Application\Tool\RbkParser::parseOneNews() /Users/fedasenia/Work/Projects/rbk-news/module/Application/src/Model/NewsTable.php:22

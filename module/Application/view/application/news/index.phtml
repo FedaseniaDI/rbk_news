@@ -1,0 +1,29 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ */
+/** @var Application\Model\News $news */
+$this->headTitle('Новости: Главная');
+?>
+<div class="row">
+    <div class="news-container mt-4 col-md-9 offset-md-2">
+        <?php foreach($this->news as $news): ?>
+            <?php
+                $shortText = '';
+                if(!empty($news->content)) {
+                    $shortText = mb_strimwidth(trim(strip_tags($news->content)), 0, 200) . '...';
+                }
+            ?>
+            <div class="card mb-4 news-item">
+                <div class="card-body">
+                    <a href="/news/view/<?= $news->id?>" class="text-info">
+                        <h3 class="card-title font-weight-light"><span class="font-weight-light"><?= $news->title?></span></h3>
+                    </a>
+                    <p class="card-text font-weight-light"><?= $shortText?></p>
+                    <p class="card-text"><small class="text-muted"><?= strftime("%e %B %H:%M", strtotime($news->datetime))?></small></p>
+                    <a href="/news/view/<?= $news->id?>" class="btn btn-outline-info">Подробнее</a>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    </div>
+</div>

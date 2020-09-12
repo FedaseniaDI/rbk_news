@@ -1,0 +1,2 @@
+CREATE TABLE `news` (`id` int(11) NOT NULL AUTO_INCREMENT, `title` varchar(255) NOT NULL, `text_overview` text DEFAULT NULL, `img_src` varchar(255) DEFAULT NULL, `img_description` varchar(255) DEFAULT NULL, `img_author` varchar(255) DEFAULT NULL, `content` text DEFAULT NULL, `author` varchar(100) DEFAULT NULL, `datetime` timestamp NOT NULL DEFAULT current_timestamp(), `s_id` varchar(100) NOT NULL, `s_url` varchar(255) NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+ALTER TABLE `news` ADD PRIMARY KEY (`id`);

@@ -1,0 +1,35 @@
+<?php
+/**
+ * @var Laminas\View\Renderer\PhpRenderer $this
+ * @var Application\Model\News $news
+ *
+ */
+$this->headTitle('Новости: ' . $news->title);
+?>
+<div class="row">
+    <div class="news-item jumbotron mt-4 pt-5 col-md-10 offset-md-1">
+        <h1 class="display-4"><?= $news->title?></h1>
+        <p class="text-muted"><?= strftime("%e %B %H:%M", strtotime($news->datetime))?></p>
+        <?php if(!empty($news->text_overview)):?>
+            <p class="lead"><?= $news->text_overview?></p>
+        <?php endif;?>
+        <hr class="my-4">
+        <?php if(!empty($news->img_src)):?>
+            <div class="news-img mb-4 mt-4">
+                <figure class="figure">
+                    <img src="<?= $news->img_src?>" class="figure-img img-fluid rounded" alt="<?= $news->img_description ?? $news->img_author ?>">
+                    <figcaption class="figure-caption">
+                        <?= $news->img_description ?? ''?> <?= $news->img_author?>
+                    </figcaption>
+                </figure>
+            </div>
+        <?php endif;?>
+        <div class="content font-weight-light">
+            <?= $news->content?>
+            <?php if(!empty($news->author)):?>
+                <hr class="my-4">
+                <p>Автор: <em><?= $news->author?></em></p>
+            <?php endif;?>
+        </div>
+    </div>
+</div>

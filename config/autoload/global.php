@@ -16,7 +16,9 @@ return [
     // ...
     'db' => [
         'driver' => 'Pdo',
-        'dsn'    => 'mysql:dbname=rbk_news;host=localhost;charset=utf8',
+        'dsn'    => 'mysql:dbname=rbk_news;host=mysql;charset=utf8',
+        'username' => 'rbk_news_user',
+        'password' => 'rbk_news_user_pass'
     ],
     'session_config'  => [],
 ];

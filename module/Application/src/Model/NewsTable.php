@@ -18,7 +18,6 @@ class NewsTable extends Table
             $results = MultiCurlRequest::run($urls);
             if(is_array($results) && !empty($results)) {
                 foreach ($results as $url => $result) {
-                    if(!empty($result['content']) && !empty($newsFeedsData[$url])) {
                         $newsData = RbkParser::parseOneNews($result['content']);
                         $newsFeedsData[$url]['text_overview'] = $newsData['text_overview'];
                         $newsFeedsData[$url]['img_src'] = $newsData['img_src'];
@@ -27,15 +26,15 @@ class NewsTable extends Table
                         $newsFeedsData[$url]['content'] = $newsData['content'];
                         $newsFeedsData[$url]['author'] = $newsData['author'];
                         $newsFeedsData[$url]['title'] = $newsData['title'];
-                    }
                 }
             }
             if(!empty($newsFeedsData)) {
                 $this->tableGateway->delete([]);
-
                 foreach ($newsFeedsData as $newsFeedData) {
-                    $model = new News($newsFeedData);
-                    $this->saveRow($model);
+                    if(!empty($newsFeedData['title']) && !empty($newsFeedData['content'])) {
+                        $model = new News($newsFeedData);
+                        $this->saveRow($model);
+                    }
                 }
             }
         }

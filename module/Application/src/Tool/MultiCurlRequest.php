@@ -5,7 +5,7 @@ class MultiCurlRequest {
     public static array $options = [
         CURLOPT_PORT              => 80,
         CURLOPT_RETURNTRANSFER    => 1,
-        //CURLOPT_BINARYTRANSFER    => 1,
+        CURLOPT_BINARYTRANSFER    => 1,
         CURLOPT_CONNECTTIMEOUT    => 60,
         CURLOPT_TIMEOUT           => 120,
         CURLOPT_USERAGENT         => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
